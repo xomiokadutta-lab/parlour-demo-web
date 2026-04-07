@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glow Beauty Parlour</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2 class="logo">Glow Beauty</h2>
+  <ul>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#booking">Book</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <h1>Enhance Your Natural Beauty</h1>
+  <p>Professional beauty treatments tailored just for you.</p>
+  <a href="#booking" class="btn">Book Appointment</a>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+  <h2>About Us</h2>
+  <p>At Glow Beauty Parlour, we provide premium beauty and wellness services in a relaxing and hygienic environment. Our skilled professionals ensure you leave feeling confident and refreshed.</p>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services">
+  <h2>Our Services</h2>
+  <div class="service-box">
+    <div>
+      <h3>Facial</h3>
+      <p>₹800 - ₹2000</p>
+    </div>
+    <div>
+      <h3>Hair Spa</h3>
+      <p>₹1000 - ₹2500</p>
+    </div>
+    <div>
+      <h3>Bridal Makeup</h3>
+      <p>₹5000 onwards</p>
+    </div>
+    <div>
+      <h3>Manicure & Pedicure</h3>
+      <p>₹600 - ₹1500</p>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="gallery">
+  <h2>Our Work</h2>
+  <div class="gallery-grid">
+    <img src="https://source.unsplash.com/300x300/?makeup" alt="">
+    <img src="https://source.unsplash.com/300x300/?facial" alt="">
+    <img src="https://source.unsplash.com/300x300/?hairstyle" alt="">
+    <img src="https://source.unsplash.com/300x300/?nails" alt="">
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section id="booking" class="booking">
+  <h2>Book Appointment</h2>
+  <form action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST">
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="tel" name="phone" placeholder="Phone Number" required>
+    
+    <select name="service" required>
+      <option value="">Select Service</option>
+      <option>Facial</option>
+      <option>Hair Spa</option>
+      <option>Bridal Makeup</option>
+      <option>Manicure & Pedicure</option>
+    </select>
+
+    <input type="date" name="date" required>
+    <input type="time" name="time" required>
+
+    <button type="submit">Confirm Booking</button>
+  </form>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <p>📍 Your Area, Kolkata</p>
+  <p>📞 +91 90000 00000</p>
+  <p>📧 xomiokadutta@gmail.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Glow Beauty Parlour. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
